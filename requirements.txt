@@ -1,0 +1,34 @@
+# --- Core ---
+numpy
+pandas
+scikit-learn
+scipy
+matplotlib
+seaborn
+
+# --- Machine Learning / AI ---
+tensorflow
+torch
+torchvision
+opencv-python
+
+# --- Simulation / Control ---
+gym
+stable-baselines3
+simpy
+
+# --- API Backend ---
+fastapi
+uvicorn[standard]
+
+# --- Web / Dashboard ---
+jinja2
+requests
+
+# --- Dev / Testing ---
+pytest
+black
+flake8
+
+# --- Optional 3D / Blender Integration ---
+bpy==3.6.0  # Compatible version if using Blender scripting
