@@ -1,0 +1,70 @@
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+env/
+.venv/
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# ---- Jupyter Notebooks ----
+.ipynb_checkpoints
+notebooks/.ipynb_checkpoints
+
+# ---- VSCode / Editors ----
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ---- Data ----
+data/raw/*
+data/processed/*
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+
+# ---- Logs ----
+logs/
+*.log
+
+# ---- OS files ----
+.DS_Store
+Thumbs.db
+
+# ---- Simulation / 3D Exports ----
+*.blend1
+*.blend2
+*.blend@
+*.tmp
+*.bak
+
+# ---- Environment / Secrets ----
+.env
+*.env
+config_local.py
+
+# ---- Models (if large) ----
+models/*
+!models/.gitkeep
+
+# ---- Demo Assets ----
+demo_video.mp4
+docs/assets/*.mp4
+docs/assets/*.mov
+
+# ---- Docker ----
+*.pid
