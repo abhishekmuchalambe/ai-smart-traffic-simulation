@@ -143,4 +143,4 @@ This project is released under the **MIT License** — free to use and modify.
 
 ---
 
-> 📝 *Built with ❤️ to reimagine traffic management using AI.*
+> 📝 *Built with ❤️ to reimagine traffic management 
