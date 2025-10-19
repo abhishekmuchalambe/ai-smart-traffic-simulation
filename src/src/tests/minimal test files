@@ -1,0 +1,7 @@
+# tests/test_controller.py
+from src.controller.traffic_controller import TrafficController
+
+def test_signal_setting():
+    tc = TrafficController()
+    tc.set_signal("A1", "GREEN")
+    assert tc.signals["A1"] == "GREEN"
