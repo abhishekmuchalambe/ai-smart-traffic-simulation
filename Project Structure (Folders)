@@ -1,0 +1,18 @@
+AI-Smart-Traffic-Simulation/
+├─ src/
+│  ├─ models/
+│  ├─ controller/
+│  ├─ simulation/
+│  ├─ api/
+│  ├─ web_ui/
+│  └─ __init__.py
+│
+├─ data/
+│  ├─ raw/
+│  └─ processed/
+│
+├─ notebooks/
+├─ tests/
+├─ docs/
+
+
